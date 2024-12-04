@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     random_device rd;
     mt19937 mersenne(rd());
-    uniform_int_distribution<int> uid(0, 10);
+    uniform_int_distribution<int> uid(0, 50);
 
     const int size_1 = 5;
     const int size_2 = 10;
